@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    
+
+}
+.mockup{
+    width: 100%;
+    height: 36px;
+    background-color: #7F56D9;
+    font-size: 14px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second_menu{
+width: 100%;
+height: 81px;
+display: flex;
+justify-content: space-between;
+align-items:center;
+border-bottom: 1px solid rgb(240, 240, 240);
+padding-left: 50px;
+padding-right: 50px;
+
+
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    width: 482px;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.menu li{
+    color:#667085;
+    font-size: 16px;
+}
+/* .veronica{
+    font-size: 25px;
+} */
+.veronica{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+}
+.cart_button{
+    width: 102px;
+    height: 48px;
+    background-color:#7F56D9;
+    border: none;
+    color:white;
+}
+.main_image_menu{
+    position:absolute;
+    width: 100%;
+    height: 838px;
+    margin-top: 81px;
+    
+    margin-bottom: 148px;
+
+}
+.title{
+    
+    width: 961px;
+    height: 270px;
+    text-transform: uppercase;
+    
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 63px;
+    line-height: 90px;
+    position:relative;
+    left: 50px;
+
+}
+.user_image{
+    position: relative;
+    z-index: -998;
+    width: 800px;
+    height: 650px;
+    bottom:550px;
+    left: 670px;
+    
+    
+    gap: 0px;
+    opacity: 0px;
+
+}
+.comment_tile{
+position:relative;
+width: 376px;
+height: 120px;
+left: 50px;
+top: 50px;
+gap: 0px;
+opacity: 0px;
+
+font-size: 20px;
+
+line-height: 30px;
+/* text-align: left; */
+color:#667085;
+font-family: "Raleway", sans-serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+.direction_image{
+width: 600px;
+height: 304px;
+position:relative;
+top: -50px;
+left: 190px;
+gap: 0px;
+opacity: 0px;
+
+}
+.selected_menu{
+    
+    width: 100%;
+    height: 148px;
+    padding-left: 50px;
+    padding-right: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.select{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase
+}
+.matn{
+    color:#667085;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 18px;
+    width: 637px;
+    height: 56px;
+    
+
+}
+.view_but{
+    width: 166px;
+    height: 40px;
+    background: #7F56D9;
+    color:white;
+    /* display: flex;
+    align-items:center;
+    justify-content: center; */
+    font-size: 16px;
+    border:none;
+    padding: 10px;
+    padding-bottom: 10px;
+
+}
+.second_vacation img{
+    width: 1425px;
+    height: 622px;
+    margin: 45px;
+}
+.personal_information_card{
+    width: 1425px;
+    height: 1320px;
+    
+    margin-left: 45PX;
+    margin-top: 150px;
+    
+}
+.name_infor{
+    width: 920px;
+    height: 144px;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    
+}
+.image_icon1{
+    width: 100%;
+    height: 100ch;
+}
+.image_icon{
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 100px;
+    position: absolute;
+}
+.image_icon img{
+    width: 800px;
+    height: 600px;
+    position: relative;
+    left: 344px;
+    
+}
+.image_icon .img1{
+    width: 280px;
+    height: 272px;
+    position: relative;
+    top:300px;
+    left: 480px;
+    z-index: 999;
+}
+.biography{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap: 0px;
+    
+}
+.biography p{
+    width: 681px;
+    height: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    color:#667085;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+}
+.biography button{
+    width: 231px;
+    height: 43px;
+    background: #7F56D9;
+    color:white;
+    border:none;
+
+}
+.pages{
+    width: 1425px;
+    margin-left: 45px;
+    margin-top: 80px;
+    display: flex;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+.page{
+    width: 672px;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding:30px;
+    background:rgba(214, 215, 216,0.3)
+}
+.text{
+    width: 566px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#101828;
+
+}
+.img_icon_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img_icon_text img{
+    width: 48px;
+    height: 48px;
+}
+
+.stars img{
+    width: 20px;
+    height: 20px;
+}
+.lastes_blogs{
+    margin-top: 100px;
+   
+    height: 788px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.biznec{
+    width: 672px;
+    height: 350px;
+}
+.page2{
+    
+    width: 672px;
+    height: 576px;
+
+
+    
+
+}
+.pages2{
+    display: flex;
+    justify-content: space-around;
+}
+.design{
+    width: 103px;
+    height: 26px;
+    background:rgb(236, 232, 232);
+    font-size:12px;
+    color:#101828;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+}
+.datas{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+.nedds{
+    width: 100%;
+    height: 100px;
+    line-height: 50px;
+    margin: 150px 0;
+    padding-left: 45px;
+}
+.footer{
+
+height: 295px;
+padding:60px 45px 45px 45px;
+
+
+}
+.list_veronica{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+
+}
+.line{
+    height: 30px;
+    width: 100%;
+    border-bottom:1px solid rgb(192, 189, 189);
+    margin-bottom: 30px;
+}
